@@ -6,7 +6,7 @@
 /*   By: moguille <moguille@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/05 19:52:43 by moguille          #+#    #+#             */
-/*   Updated: 2025/03/08 19:08:01 by moguille         ###   ########.fr       */
+/*   Updated: 2025/03/10 23:58:35 by moguille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@
 int	ft_strcmp(char *s1, char *s2)
 {
 	while (*s1 != '\0' && (*s1 == *s2))
-	{		
+	{
 		s1++;
 		s2++;
 	}
-return ((unsigned char)*s1 - (unsigned char)*s2);
+	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 
 /*int	main(void)
